@@ -7,3 +7,9 @@ class CreateSecretKeySerializer(ModelSerializer):
     class Meta:
         model = Secret
         fields = '__all__'
+
+
+class RetrieveSecretKeySerializer(ModelSerializer):
+    class Meta:
+        model = Secret
+        fields = '__all__'
